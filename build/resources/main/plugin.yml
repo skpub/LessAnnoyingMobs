@@ -1,0 +1,4 @@
+name: phantomkiller
+version: '1.0-SNAPSHOT'
+main: org.sk_dev.phantomkiller.PhantomKiller
+api-version: '1.21'
