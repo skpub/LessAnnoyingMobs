@@ -13,12 +13,12 @@ import java.net.http.WebSocket;
 public class GuardianKillerListener implements Listener  {
     @EventHandler
     public void onPlayerHurtByGuardian(EntityDamageByEntityEvent e) {
-        if (e.getEntityType() == EntityType.PLAYER && e.getDamager().getType() == EntityType.GUARDIAN) {
-            return;
-        } else {
+        if (e.getEntity().getType() == EntityType.PLAYER && e.getDamager().getType() == EntityType.GUARDIAN) {
             Entity guardian = e.getDamager();
             Location guadianLocation = guardian.getLocation();
             guardian.getWorld().createExplosion(guadianLocation, 4, false, false);
+        } else {
+            return;
         }
     }
 }
