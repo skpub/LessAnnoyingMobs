@@ -13,7 +13,7 @@ import java.net.http.WebSocket;
 public class GuardianKillerListener implements Listener  {
     @EventHandler
     public void onPlayerHurtByGuardian(EntityDamageByEntityEvent e) {
-        if (e.getEntityType() != EntityType.PLAYER && e.getDamager().getType() != EntityType.GUARDIAN) {
+        if (e.getEntityType() == EntityType.PLAYER && e.getDamager().getType() == EntityType.GUARDIAN) {
             return;
         } else {
             Entity guardian = e.getDamager();
