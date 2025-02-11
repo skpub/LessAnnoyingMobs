@@ -1,4 +1,4 @@
-package org.sk_dev.phantomkiller;
+package org.sk_dev.lessannoyingmobs;
 
 import org.bukkit.Location;
 import org.bukkit.entity.EntityType;

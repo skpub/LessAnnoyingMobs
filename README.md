@@ -1,7 +1,7 @@
-# Phantom Killer
+# LessAnnoyingMobs
 
-A fully automated plugin for killing phantoms, compatible with Spigot, PaperMC, and Purpur.
+This plugin modifies the behavior of annoying mobs to make them less frustrating.
 
-ファントムを自動で処理するプラグインです。
+ウザいモブの仕様をうざくないものに変更するプラグインです。
 
 (https://youtube.com/shorts/svqKwxsHLZU)
